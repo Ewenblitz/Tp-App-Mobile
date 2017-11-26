@@ -5,6 +5,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { GeolocPage } from '../pages/geoloc/geoloc';
+import { CameraPage } from '../pages/camera/camera';
+import { FxdiversPage } from '../pages/fxdivers/fxdivers';
+import { GyroPage } from '../pages/gyro/gyro';
+import { QrPage } from '../pages/qr/qr';
 
 @Component({
   templateUrl: 'app.html'
@@ -21,8 +26,13 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Accueil', component: HomePage },
+      { title: 'Liste', component: ListPage },
+      { title: 'Geolocalisation', component: GeolocPage },
+      { title: 'Camera', component: CameraPage },
+      { title: 'Fonctions Diverses', component: FxdiversPage },
+      { title: 'Gyroscope', component: GyroPage },
+      { title: 'Qr Scanner', component: QrPage }
     ];
 
   }
