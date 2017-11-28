@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { NgxQRCodeModule } from 'ngx-qrcode2';
 
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 

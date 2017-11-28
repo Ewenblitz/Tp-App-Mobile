@@ -24,11 +24,12 @@
     "@ionic-native/camera": "^4.4.2",
     "@ionic-native/core": "4.3.2",
     "@ionic-native/geolocation": "^4.4.0",
-    "@ionic-native/google-maps": "^4.4.2",
     "@ionic-native/gyroscope": "^4.4.2",
+    "@ionic-native/media-capture": "^4.4.2",
     "@ionic-native/shake": "^4.4.2",
     "@ionic-native/splash-screen": "4.3.2",
     "@ionic-native/status-bar": "4.3.2",
+    "@ionic-native/streaming-media": "^4.4.2",
     "@ionic-native/text-to-speech": "^4.4.2",
     "@ionic-native/vibration": "^4.4.2",
     "@ionic/storage": "2.0.1",
@@ -37,12 +38,14 @@
     "cordova-plugin-camera": "^3.0.0",
     "cordova-plugin-device": "^1.1.4",
     "cordova-plugin-device-motion": "^2.0.0",
+    "cordova-plugin-file": "^5.0.0",
     "cordova-plugin-geolocation": "^3.0.0",
-    "cordova-plugin-googlemaps": "^2.1.1",
     "cordova-plugin-gyroscope": "^0.1.4",
     "cordova-plugin-ionic-webview": "^1.1.16",
+    "cordova-plugin-media-capture": "^2.0.0",
     "cordova-plugin-shake": "^0.6.0",
     "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-streaming-media": "^1.0.2",
     "cordova-plugin-tts": "^0.2.3",
     "cordova-plugin-vibration": "^2.1.6",
     "cordova-plugin-whitelist": "^1.3.1",
@@ -53,7 +56,8 @@
     "phonegap-plugin-barcodescanner": "^7.0.0",
     "rxjs": "5.4.3",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.18"
+    "zone.js": "0.8.18",
+    "com.hutchind.cordova.plugins.streamingmedia": "~0.1.4"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.0.1",
@@ -74,11 +78,10 @@
       "cordova-plugin-vibration": {},
       "cordova-plugin-tts": {},
       "cordova-plugin-gyroscope": {},
-      "cordova-plugin-googlemaps": {
-        "API_KEY_FOR_ANDROID": "AIzaSyACDEZAjZfjkG5nch8yvdyPLQxIwKXDCJA"
-      },
       "cordova-plugin-shake": {},
-      "phonegap-plugin-barcodescanner": {}
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-media-capture": {},
+      "com.hutchind.cordova.plugins.streamingmedia": {}
     },
     "platforms": [
       "android",

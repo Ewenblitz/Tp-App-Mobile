@@ -16,6 +16,7 @@
 </ion-header>
 
 
+
 <ion-content padding>
 
   <h1>Votre localisation :</h1>
@@ -27,6 +28,14 @@
     Longitude : {{longitude}}
   </p>
 
-  <button ion-button (click)='loadMap()'>Afficher la carte</button>
+  <h1>Vos différentes localisations :</h1>
+
+  <ul>
+    <li *ngFor="let curentgeo of aGeo">
+      <b>Latitude :</b> {{ curentgeo.aLatitude }} <b>Longitude :</b> {{ curentgeo.aLongitude }}
+    </li>
+  </ul>
+
+    <!--<button ion-button (click)='loadMap()'>Afficher la carte</button>-->
 
 </ion-content>
