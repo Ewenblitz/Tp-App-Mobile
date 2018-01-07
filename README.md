@@ -24,4 +24,18 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
-LOMER Ewen - Ingésup B3
+====================================================================================
+
+ @Author LOMER Ewen - Ingésup B3
+
+L'application a été developpé et testé sur le system Android
+L'application est entièrement fonctionnelle uniquement sur smartphone Android
+
+Pour lancer l'application :
+
+*npm install* ou *ionic prepare*
+
+puis *ionic cordova run android*
+
+# Une erreur surviens pour le paquet 'streamingmedia' lors du premier build de l'application.
+# Il s'emblerait que le paquet ne soit plus supporté, relancer la commande run android pour effectué le build fonctionnel
