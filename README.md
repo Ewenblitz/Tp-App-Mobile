@@ -1,3 +1,26 @@
+# LOMER Ewen - Ingésup B3
+
+L'application a été developpé et testé sur le system Android
+L'application est entièrement fonctionnelle uniquement sur smartphone Android
+
+Pour lancer l'application :
+
+```bash
+$ npm install
+ou
+$ ionic prepare
+```
+
+puis
+
+```bash
+ionic cordova run android
+```
+
+### Une erreur surviens pour le paquet 'streamingmedia' lors du premier build de l'application. Il s'emblerait que le paquet ne soit plus supporté, relancer la commande run android pour effectuer le build fonctionnel
+
+
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
@@ -23,19 +46,3 @@ $ ionic cordova run ios
 ```
 
 Substitute ios for android if not on a Mac.
-
-====================================================================================
-
- @Author LOMER Ewen - Ingésup B3
-
-L'application a été developpé et testé sur le system Android
-L'application est entièrement fonctionnelle uniquement sur smartphone Android
-
-Pour lancer l'application :
-
-*npm install* ou *ionic prepare*
-
-puis *ionic cordova run android*
-
-# Une erreur surviens pour le paquet 'streamingmedia' lors du premier build de l'application.
-# Il s'emblerait que le paquet ne soit plus supporté, relancer la commande run android pour effectué le build fonctionnel
