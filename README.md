@@ -24,4 +24,4 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
-LOMER Ewen - Ingésup B3 / ROSSI Mélinda - Ingésup B3
+LOMER Ewen - Ingésup B3
